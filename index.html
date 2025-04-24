@@ -10,7 +10,13 @@
   <body>
     <header class="hero">
       <nav class="nav">
-        <img src="./images/css-3.svg" alt="logo" height="50" width="50" />
+        <img
+          class="img-nav"
+          src="./images/css-3.svg"
+          alt="logo"
+          height="50"
+          width="50"
+        />
         <div class="brand">Untitled UI</div>
         <ul>
           <li><a href="#">Home</a></li>
@@ -23,6 +29,7 @@
         <a class="btn-outline btn-primary" href="#">Get started</a>
       </nav>
       <h1>The Journal: Design Resources, Interviews, and Industry News</h1>
+      <h3>subsctibe to learn more about the page</h3>
       <form class="subscribe">
         <input type="email" placeholder="Enter your email" required />
         <button type="submit">Subscribe</button>
@@ -166,15 +173,53 @@
         <a href="#" class="btn-outline btn-primary btn">Get started</a>
       </div>
 
-      <h2>Ready to level up your business?</h2>
+      <!-- <h2>Ready to level up your business?</h2>
       <p>Start your 30‑day free trial. Cancel anytime.</p>
       <div class="actions">
         <a href="#" class="btn-outline btn-primary">View demo</a>
         <a href="#" class="btn-outline btn-primary">Get started</a>
-      </div>
+      </div> -->
     </section>
 
-    <footer>
+    <!-- ===== footer ===== -->
+    <footer class="app-footer">
+      <div class="footer-inner">
+        <!-- left column -->
+        <section class="footer-brand">
+          <div class="logo-line">
+            <img src="./images/css-3.svg" alt="logo" width="36" height="36" />
+            <span class="brand-name">Untitled&nbsp;UI</span>
+          </div>
+
+          <p class="tagline">
+            Design amazing digital experiences<br />
+            that create more happy in the world.
+          </p>
+
+          <ul class="footer-links">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </section>
+
+        <!-- right column -->
+        <section class="footer-apps">
+          <h4>Get the app</h4>
+
+          <a href="#" class="store-badge ios-badge"
+            ><img src="./images/apple.png" alt="Download on the App Store"
+          /></a>
+
+          <a href="#" class="store-badge android-badge"
+            ><img src="./images/playstore.png" alt="Get it on Google Play"
+          /></a>
+        </section>
+      </div>
+      <hr class="hr-footer" />
       <p>© 2025 Untitled UI. All rights reserved.</p>
     </footer>
   </body>
